@@ -1,0 +1,452 @@
+# TRIVERO BRAND BIBLE
+
+Version: 1.0
+
+---
+
+# WHO WE ARE
+
+TRIVERO exists to help people understand their hair before they attempt to treat it.
+
+We believe that healthy hair begins with understanding the body—not chasing products.
+
+We are building a scientific assessment platform that transforms confusion into clarity.
+
+---
+
+# MISSION
+
+Most people treat hair loss.
+
+We help them understand it first.
+
+---
+
+# TAGLINE
+
+Know your problem from its roots.
+
+---
+
+# PURPOSE
+
+To make scientific hair assessment accessible, understandable and actionable for everyone.
+
+---
+
+# VISION
+
+To become the world's most trusted platform for understanding hair health through science, not assumptions.
+
+---
+
+# BRAND PROMISE
+
+Every assessment should leave the user knowing more about themselves than before they started.
+
+We do not promise miracles.
+
+We promise understanding.
+
+---
+
+# WHAT WE BELIEVE
+
+Hair is an outcome.
+
+The body is the source.
+
+Every person's hair tells a story.
+
+Understanding should always come before treatment.
+
+Good science is calm.
+
+Truth builds trust.
+
+Trust builds long-term relationships.
+
+Education creates better decisions.
+
+Small improvements consistently applied create meaningful change.
+
+---
+
+# WHAT WE ARE NOT
+
+We are not a shampoo company.
+
+We are not an oil company.
+
+We are not a cosmetic brand.
+
+We are not a miracle solution.
+
+We are not an AI company.
+
+We are not a replacement for dermatologists.
+
+---
+
+# WHAT WE ARE
+
+We are an advanced hair assessment platform.
+
+We combine scientific understanding of:
+
+• Hair
+• Scalp
+• Nutrition
+• Lifestyle
+
+to help users discover possible contributors to their hair concerns.
+
+---
+
+# OUR PHILOSOPHY
+
+Understand First.
+
+Recommend Second.
+
+Sell Last.
+
+---
+
+# BRAND VALUES
+
+## Truth
+
+We never exaggerate.
+
+We never manipulate.
+
+We never create unnecessary fear.
+
+We explain reality.
+
+---
+
+## Science
+
+Every recommendation should have scientific reasoning.
+
+If evidence is uncertain, we say so.
+
+---
+
+## Simplicity
+
+Complex science should feel simple.
+
+Never complicated.
+
+Never overwhelming.
+
+---
+
+## Trust
+
+Trust is earned through honesty.
+
+Not marketing.
+
+---
+
+## Precision
+
+Every word.
+
+Every report.
+
+Every recommendation.
+
+Every interaction.
+
+Should feel intentional.
+
+---
+
+## Responsibility
+
+We never recommend beyond safe limits.
+
+We acknowledge uncertainty.
+
+We encourage professional consultation whenever appropriate.
+
+---
+
+# TARGET USER
+
+Age
+
+23–32
+
+Recently experiencing hair fall.
+
+Has already searched Google.
+
+Has watched YouTube.
+
+Has tried products.
+
+Still confused.
+
+Needs clarity.
+
+Not another advertisement.
+
+---
+
+# USER EMOTIONS
+
+Before Trivero
+
+Confused
+
+Anxious
+
+Frustrated
+
+Overwhelmed
+
+After Trivero
+
+Calm
+
+Understood
+
+Confident
+
+Hopeful
+
+Ready to act
+
+---
+
+# PERSONALITY
+
+If TRIVERO were a person:
+
+Intelligent
+
+Calm
+
+Patient
+
+Professional
+
+Curious
+
+Honest
+
+Never arrogant.
+
+Never dramatic.
+
+---
+
+# TONE OF VOICE
+
+Speak like an experienced expert.
+
+Never like a salesperson.
+
+Never like a chatbot.
+
+Never like a doctor giving orders.
+
+Speak like someone who genuinely wants the user to understand.
+
+---
+
+# WRITING STYLE
+
+Short sentences.
+
+Simple language.
+
+Minimal jargon.
+
+Evidence-based.
+
+Positive.
+
+Respectful.
+
+Professional.
+
+Readable by everyone.
+
+---
+
+# WE NEVER SAY
+
+"Cure."
+
+"Guaranteed."
+
+"Permanent."
+
+"100%."
+
+"Miracle."
+
+"Instant."
+
+"AI-powered."
+
+"Revolutionary."
+
+"Secret Formula."
+
+"Life-changing."
+
+---
+
+# WE PREFER TO SAY
+
+Understand
+
+Identify
+
+Assess
+
+Analyze
+
+Support
+
+Improve
+
+Guide
+
+Recommend
+
+Observe
+
+Potential
+
+Possible
+
+Likely
+
+Contributing factors
+
+Recovery journey
+
+---
+
+# DESIGN PHILOSOPHY
+
+Minimal.
+
+Premium.
+
+Timeless.
+
+Scientific.
+
+Elegant.
+
+Invisible technology.
+
+The design should never compete with the information.
+
+---
+
+# USER EXPERIENCE PHILOSOPHY
+
+The website should never feel like software.
+
+It should feel like a conversation with experts.
+
+Every screen should answer one question.
+
+Every click should reduce uncertainty.
+
+Every interaction should increase confidence.
+
+---
+
+# TRUST PRINCIPLES
+
+Never hide information.
+
+Never exaggerate results.
+
+Never pressure purchases.
+
+Never create fear.
+
+Always explain why.
+
+Always acknowledge positive habits.
+
+Always respect uncertainty.
+
+Always encourage informed decisions.
+
+---
+
+# REPORT PHILOSOPHY
+
+The report is our product.
+
+The website is only the entrance.
+
+Every report should feel valuable enough to save.
+
+Professional enough to print.
+
+Clear enough to understand.
+
+Useful enough to revisit.
+
+---
+
+# OUR DIFFERENCE
+
+Others recommend products.
+
+We explain the problem.
+
+Others focus on symptoms.
+
+We focus on contributing factors.
+
+Others create urgency.
+
+We create understanding.
+
+Others sell treatment.
+
+We provide clarity first.
+
+---
+
+# LONG-TERM VISION
+
+TRIVERO should become the most trusted name people think of when they want to understand their hair.
+
+Not because we advertise the most.
+
+Because we understand the best.
+
+---
+
+# INTERNAL DECISION RULE
+
+Before adding any feature, ask:
+
+Does this increase understanding?
+
+Does this increase trust?
+
+Does this reduce confusion?
+
+Does this genuinely help the user?
+
+If the answer is "No" to any of these questions,
+
+do not build it.

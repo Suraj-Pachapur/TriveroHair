@@ -1,0 +1,1119 @@
+# TRIVERO WEBSITE SPECIFICATION
+
+Version: 1.0
+
+Owner: Product & Engineering
+
+Status: Production Blueprint
+
+---
+
+# PURPOSE
+
+The website exists for one purpose:
+
+To convert a confused visitor into a confident user by helping them begin their Hair Health Assessment.
+
+The website is NOT the product.
+
+The Hair Recovery Blueprint (PDF) is the product.
+
+The website is simply the entrance.
+
+---
+
+# WEBSITE PHILOSOPHY
+
+Every page should answer one question.
+
+Every section should reduce uncertainty.
+
+Every click should increase confidence.
+
+Every animation should support understanding.
+
+Technology should disappear.
+
+The user should never think
+
+"This is an AI website."
+
+The user should think
+
+"These people understand hair."
+
+---
+
+# USER PERSONA
+
+Age
+
+23–32
+
+Usually
+
+Working professional
+
+Student
+
+Young entrepreneur
+
+Recently experiencing hair fall
+
+Has searched Google
+
+Has watched YouTube
+
+Has tried products
+
+Still confused
+
+Emotion
+
+"I don't know why this is happening."
+
+Our job
+
+Replace confusion with clarity.
+
+---
+
+# WEBSITE GOALS
+
+Primary Goal
+
+Complete Assessment
+
+Secondary Goal
+
+Build Trust
+
+Third Goal
+
+Generate ₹99 Conversion
+
+---
+
+# DESIGN LANGUAGE
+
+Minimal
+
+Premium
+
+Scientific
+
+Elegant
+
+Timeless
+
+No flashy colors.
+
+No aggressive marketing.
+
+No medical fear.
+
+No unnecessary illustrations.
+
+Everything should feel intentional.
+
+---
+
+# BRAND MESSAGE
+
+Headline
+
+Most people treat hair problems.
+
+We help you understand them first.
+
+Supporting Line
+
+Know your problem from its roots.
+
+---
+
+# COLOR SYSTEM
+
+Primary
+
+Deep Forest Green
+
+Represents
+
+Growth
+
+Trust
+
+Science
+
+Secondary
+
+Warm Ivory
+
+Represents
+
+Calm
+
+Minimalism
+
+Clean Reading
+
+Accent
+
+Soft Gold
+
+Used only for
+
+CTA
+
+Highlights
+
+Important Numbers
+
+Neutral
+
+Light Gray
+
+Medium Gray
+
+Dark Charcoal
+
+Never use bright red.
+
+Never use neon colors.
+
+---
+
+# TYPOGRAPHY
+
+Headings
+
+Elegant Serif
+
+Examples
+
+Cormorant Garamond
+
+Playfair Display
+
+Body
+
+Modern Sans Serif
+
+Examples
+
+Inter
+
+Manrope
+
+IBM Plex Sans
+
+Rules
+
+Large spacing
+
+Short paragraphs
+
+Readable line length
+
+Never use more than two font families.
+
+---
+
+# ICON STYLE
+
+Outline icons only.
+
+Simple.
+
+Scientific.
+
+Consistent stroke width.
+
+Rounded corners.
+
+---
+
+# BUTTONS
+
+Primary
+
+Rounded
+
+Large
+
+Solid
+
+Hover animation
+
+Subtle shadow
+
+Secondary
+
+Outlined
+
+No shadow
+
+Smooth hover
+
+Never use more than two button styles.
+
+---
+
+# BORDER RADIUS
+
+Large cards
+
+20px
+
+Buttons
+
+14px
+
+Inputs
+
+14px
+
+Images
+
+18px
+
+---
+
+# SHADOWS
+
+Soft
+
+Natural
+
+Almost invisible
+
+No heavy shadows.
+
+---
+
+# SPACING
+
+Every section
+
+120px
+
+Cards
+
+32px
+
+Buttons
+
+24px
+
+Text
+
+8px rhythm
+
+Whitespace should dominate.
+
+---
+
+# RESPONSIVENESS
+
+Desktop
+
+First Priority
+
+Tablet
+
+Second
+
+Mobile
+
+Mandatory
+
+No horizontal scrolling.
+
+---
+
+############################################################
+
+PAGE STRUCTURE
+
+############################################################
+
+1.
+
+Navigation
+
+↓
+
+2.
+
+Hero
+
+↓
+
+3.
+
+Trust Indicators
+
+↓
+
+4.
+
+Why Hair Problems Happen
+
+↓
+
+5.
+
+How Trivero Works
+
+↓
+
+6.
+
+Sample Report Preview
+
+↓
+
+7.
+
+Why People Trust Us
+
+↓
+
+8.
+
+Pricing
+
+↓
+
+9.
+
+FAQ
+
+↓
+
+10.
+
+Footer
+
+---
+
+############################################################
+
+NAVIGATION
+
+############################################################
+
+Left
+
+TRIVERO
+
+Center
+
+None
+
+Right
+
+Start Assessment
+
+Sticky
+
+Transparent initially
+
+Solid after scrolling
+
+Height
+
+72px
+
+---
+
+############################################################
+
+HERO
+
+############################################################
+
+Purpose
+
+Immediately answer
+
+What is Trivero?
+
+Layout
+
+Left
+
+Headline
+
+Subheading
+
+CTA
+
+Trust Text
+
+Right
+
+Hero Illustration Specification
+
+The Hero illustration is a core brand asset and must immediately communicate scientific credibility, precision, and premium quality.
+
+Requirements
+
+• The hair follicle illustration must be anatomically accurate and scientifically realistic.
+
+• The illustration should be rendered in a premium 3D editorial style, combining scientific visualization with modern product-design aesthetics.
+
+• The artwork should resemble a high-end medical visualization rather than a textbook diagram.
+
+• Hair shafts should appear healthy, naturally textured, glossy, and realistic with subtle variations in thickness and curvature. Avoid perfectly straight or artificial-looking strands.
+
+• Skin layers, follicles, sebaceous glands, and blood vessels should be clearly recognizable while remaining visually clean and elegant.
+
+• The illustration should emphasize depth, realistic lighting, soft shadows, and physically accurate materials.
+
+• Use soft ambient lighting with warm ivory reflections and subtle gold highlights that align with the TRIVERO brand palette.
+
+• Avoid cartoon illustrations, flat vectors, low-poly models, or generic stock medical graphics.
+
+• The illustration should feel comparable to Apple's product renders combined with Nature journal scientific visualizations.
+
+• The illustration should occupy approximately 55–60% of the Hero section on desktop while maintaining generous whitespace.
+
+Animation Requirements
+
+The Hero illustration should move naturally rather than appearing static.
+
+Use subtle premium animations only.
+
+• Slow floating motion (±6px vertical movement)
+
+• Gentle breathing scale (1 → 1.02 → 1)
+
+• Soft mouse-responsive parallax
+
+• Subtle lighting shimmer across the hair shaft to simulate healthy reflective cuticles
+
+• Hair strands should exhibit extremely subtle natural sway, as if responding to a gentle airflow (avoid exaggerated movement)
+
+• Animations must run continuously without distracting the user.
+
+Performance Requirements
+
+• Use hardware-accelerated transforms.
+
+• Maintain 60 FPS on modern devices.
+
+• Optimize the illustration for Retina and high-resolution displays.
+
+• Use optimized image formats (WebP or AVIF) or a high-quality 3D render when appropriate.
+
+The Hero illustration should become a recognizable visual identity of TRIVERO and should never appear generic or stock.
+
+Headline
+
+Most people treat hair problems.
+
+We help you understand them first.
+
+Subheading
+
+Understand the possible contributors behind your hair concerns through a structured assessment of your scalp, nutrition, lifestyle, and daily habits.
+
+Primary CTA
+
+Start Assessment
+
+Secondary CTA
+
+View Sample Report
+
+Below CTA
+
+✔ Scientific Assessment
+
+✔ Professional Report
+
+✔ Delivered in Minutes
+
+Never mention AI.
+
+---
+
+############################################################
+
+TRUST BAR
+
+############################################################
+
+Horizontal cards
+
+Examples
+
+Educational
+
+Science-Based
+
+Privacy Focused
+
+No Subscription
+
+Professional PDF
+
+Purpose
+
+Reduce skepticism.
+
+---
+
+############################################################
+
+SECTION
+
+WHY HAIR PROBLEMS HAPPEN
+
+############################################################
+
+Purpose
+
+Educate
+
+Topics
+
+Nutrition
+
+Stress
+
+Sleep
+
+Scalp
+
+Lifestyle
+
+Genetics
+
+Animation
+
+Illustration
+
+↓
+
+Hair
+
+↓
+
+Body
+
+↓
+
+Habits
+
+Never mention products.
+
+---
+
+############################################################
+
+SECTION
+
+HOW TRIVERO WORKS
+
+############################################################
+
+Four Cards
+
+1
+
+Answer Questions
+
+2
+
+Upload Four Photos
+
+3
+
+Assessment Processing
+
+4
+
+Receive Your Blueprint
+
+Timeline
+
+Approximately
+
+5 Minutes
+
+(Assessment + Processing)
+
+---
+
+############################################################
+
+REPORT PREVIEW
+
+############################################################
+
+Purpose
+
+Increase trust.
+
+Show
+
+Cover Page
+
+Score Page
+
+Root Cause Page
+
+30 Day Plan
+
+Blur premium pages.
+
+CTA
+
+Unlock Yours
+
+---
+
+############################################################
+
+DIFFERENTIATORS
+
+############################################################
+
+Traditional
+
+↓
+
+Treat Symptoms
+
+TRIVERO
+
+↓
+
+Understand Causes
+
+Traditional
+
+↓
+
+Generic Products
+
+TRIVERO
+
+↓
+
+Personalized Assessment
+
+Traditional
+
+↓
+
+Trial & Error
+
+TRIVERO
+
+↓
+
+Evidence-Informed Guidance
+
+---
+
+############################################################
+
+PRICING
+
+############################################################
+
+Free
+
+Basic Assessment
+
+Hair Health Score
+
+Root Cause Summary
+
+General Insights
+
+Premium
+
+₹99
+
+Hair Recovery Blueprint
+
+Nutrition Analysis
+
+Lifestyle Analysis
+
+Supplement Guidance
+
+30-Day Plan
+
+PDF
+
+Email Delivery
+
+WhatsApp Delivery
+
+Button
+
+Unlock Premium Report
+
+---
+
+############################################################
+
+FAQ
+
+############################################################
+
+Examples
+
+How accurate is the assessment?
+
+Is this a medical diagnosis?
+
+Why do you ask lifestyle questions?
+
+Why four photos?
+
+How long does it take?
+
+Why is it ₹99?
+
+Can I repeat the assessment?
+
+Accordion Layout
+
+---
+
+############################################################
+
+FOOTER
+
+############################################################
+
+About
+
+Privacy
+
+Terms
+
+Contact
+
+Support
+
+Medical Disclaimer
+
+Social Links
+
+Minimal.
+
+---
+
+############################################################
+
+ASSESSMENT FLOW
+
+############################################################
+
+Landing
+
+↓
+
+Email OTP
+
+↓
+
+Basic Details
+
+↓
+
+Questionnaire
+
+↓
+
+Photo Upload
+
+↓
+
+Processing
+
+↓
+
+Free Report
+
+↓
+
+Payment
+
+↓
+
+Premium PDF
+
+↓
+
+Email
+
+↓
+
+WhatsApp
+
+---
+
+############################################################
+
+ANIMATION PRINCIPLES
+
+############################################################
+
+Purpose
+
+Guide attention.
+
+Never entertain.
+
+Use
+
+Fade
+
+Slide
+
+Scale
+
+Parallax
+
+Micro hover
+
+Avoid
+
+Spinning
+
+Flashing
+
+Heavy effects
+
+Long animations
+
+---
+
+############################################################
+
+LOADING EXPERIENCE
+
+############################################################
+
+Never use fake progress.
+
+Show real stages.
+
+Reading your responses
+
+↓
+
+Analyzing scalp images
+
+↓
+
+Evaluating lifestyle
+
+↓
+
+Preparing your report
+
+↓
+
+Finalizing PDF
+
+---
+
+############################################################
+
+MICROINTERACTIONS
+
+############################################################
+
+Buttons
+
+Soft scale
+
+Cards
+
+Lift slightly
+
+Inputs
+
+Glow border
+
+Completed Steps
+
+Green checkmark
+
+Upload
+
+Preview image instantly
+
+---
+
+############################################################
+
+SEO
+
+############################################################
+
+Primary Keywords
+
+Hair Assessment
+
+Hair Health
+
+Hair Fall Analysis
+
+Scalp Analysis
+
+Hair Report
+
+Hair Root Cause
+
+Every page
+
+Unique Title
+
+Unique Meta Description
+
+Open Graph Image
+
+Structured Data
+
+Fast Loading
+
+---
+
+############################################################
+
+PERFORMANCE
+
+############################################################
+
+Target
+
+Lighthouse
+
+95+
+
+Image Optimization
+
+Lazy Loading
+
+Code Splitting
+
+Font Optimization
+
+Edge Deployment
+
+---
+
+############################################################
+
+ACCESSIBILITY
+
+############################################################
+
+WCAG AA
+
+Keyboard Navigation
+
+Screen Reader Labels
+
+Contrast Compliance
+
+Visible Focus States
+
+Alt Text
+
+---
+
+############################################################
+
+TECH STACK
+
+############################################################
+
+Frontend
+
+Next.js
+
+TypeScript
+
+Tailwind CSS
+
+shadcn/ui
+
+Framer Motion
+
+Backend
+
+Supabase
+
+Storage
+
+Supabase Storage
+
+Authentication
+
+Supabase Auth
+
+Payments
+
+Razorpay
+
+Automation
+
+n8n
+
+Deployment
+
+Vercel
+
+---
+
+############################################################
+
+DESIGN RULES
+
+############################################################
+
+Never mention AI as a selling point.
+
+Never exaggerate results.
+
+Never use fear.
+
+Never overload a page.
+
+Never ask unnecessary information.
+
+Always explain why.
+
+Always reduce uncertainty.
+
+Always build trust.
+
+---
+
+# SUCCESS METRIC
+
+A first-time visitor should understand:
+
+• What Trivero is.
+
+• Why it is different.
+
+• Why they should trust it.
+
+• What happens after clicking "Start Assessment."
+
+• Why ₹99 is worth paying.
+
+without needing to scroll back or search for answers.

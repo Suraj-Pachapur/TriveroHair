@@ -1,0 +1,641 @@
+# TRIVERO DATABASE ARCHITECTURE
+
+Version: 1.0
+
+---
+
+# DATABASE PHILOSOPHY
+
+Every assessment is independent.
+
+A user may complete multiple assessments.
+
+Historical reports should never be overwritten.
+
+The database should support:
+
+• Progress Tracking
+• AI Learning
+• Future Research
+• Multiple Reports
+• Analytics
+
+---
+
+# DATABASE
+
+Supabase PostgreSQL
+
+---
+
+####################################################
+
+TABLE 1
+
+USERS
+
+####################################################
+
+Purpose
+
+Store user identity.
+
+Fields
+
+user_id (UUID)
+
+email
+
+email_verified
+
+first_name
+
+age
+
+gender
+
+region
+
+created_at
+
+updated_at
+
+status
+
+One user
+
+↓
+
+Many assessments
+
+---
+
+####################################################
+
+TABLE 2
+
+ASSESSMENTS
+
+####################################################
+
+Purpose
+
+One record per assessment.
+
+Fields
+
+assessment_id (UUID)
+
+user_id
+
+assessment_version
+
+status
+
+started_at
+
+submitted_at
+
+completed_at
+
+processing_time
+
+overall_score
+
+hair_score
+
+scalp_score
+
+nutrition_score
+
+lifestyle_score
+
+recovery_score
+
+confidence_score
+
+report_generated
+
+free_report_generated
+
+premium_report_generated
+
+current_stage
+
+Example
+
+Questionnaire
+
+Photos
+
+Processing
+
+Free Report
+
+Payment
+
+Completed
+
+---
+
+####################################################
+
+TABLE 3
+
+QUESTIONNAIRE_RESPONSES
+
+####################################################
+
+Purpose
+
+Store every answer.
+
+Fields
+
+response_id
+
+assessment_id
+
+question_id
+
+question_text
+
+answer
+
+answer_value
+
+category
+
+created_at
+
+Never overwrite.
+
+---
+
+####################################################
+
+TABLE 4
+
+PHOTO_UPLOADS
+
+####################################################
+
+Purpose
+
+Store uploaded images.
+
+Fields
+
+photo_id
+
+assessment_id
+
+photo_type
+
+Front
+
+Crown
+
+Left
+
+Right
+
+storage_path
+
+image_quality
+
+analysis_complete
+
+uploaded_at
+
+---
+
+####################################################
+
+TABLE 5
+
+IMAGE_ANALYSIS
+
+####################################################
+
+Purpose
+
+Vision AI output.
+
+Fields
+
+analysis_id
+
+assessment_id
+
+hair_density
+
+hairline
+
+crown
+
+redness
+
+oiliness
+
+dryness
+
+flakes
+
+shaft_quality
+
+image_confidence
+
+analysis_json
+
+---
+
+####################################################
+
+TABLE 6
+
+ASSESSMENT_RESULTS
+
+####################################################
+
+Purpose
+
+Structured JSON produced by Assessment Engine.
+
+Fields
+
+result_id
+
+assessment_id
+
+strengths_json
+
+contributors_json
+
+scores_json
+
+recommendations_json
+
+confidence_json
+
+safety_flags
+
+engine_version
+
+generated_at
+
+---
+
+####################################################
+
+TABLE 7
+
+REPORTS
+
+####################################################
+
+Purpose
+
+Generated reports.
+
+Fields
+
+report_id
+
+assessment_id
+
+report_type
+
+Free
+
+Premium
+
+pdf_url
+
+email_sent
+
+whatsapp_sent
+
+generated_at
+
+opened_at
+
+download_count
+
+---
+
+####################################################
+
+TABLE 8
+
+PAYMENTS
+
+####################################################
+
+Purpose
+
+Store payment records.
+
+Fields
+
+payment_id
+
+assessment_id
+
+provider
+
+Razorpay
+
+order_id
+
+payment_id_gateway
+
+amount
+
+currency
+
+status
+
+paid_at
+
+verified
+
+---
+
+####################################################
+
+TABLE 9
+
+USER_ACTIVITY
+
+####################################################
+
+Purpose
+
+Analytics.
+
+Fields
+
+activity_id
+
+user_id
+
+assessment_id
+
+page
+
+action
+
+timestamp
+
+device
+
+browser
+
+country
+
+---
+
+####################################################
+
+TABLE 10
+
+FOLLOWUPS
+
+####################################################
+
+Purpose
+
+Future progress tracking.
+
+Fields
+
+followup_id
+
+assessment_id
+
+scheduled_date
+
+completed
+
+next_assessment
+
+notes
+
+---
+
+####################################################
+
+TABLE 11
+
+SYSTEM_LOGS
+
+####################################################
+
+Purpose
+
+Internal debugging.
+
+Fields
+
+log_id
+
+assessment_id
+
+module
+
+status
+
+message
+
+created_at
+
+---
+
+####################################################
+
+TABLE 12
+
+EMAIL_QUEUE
+
+####################################################
+
+Purpose
+
+Email delivery.
+
+Fields
+
+email_id
+
+assessment_id
+
+recipient
+
+status
+
+retry_count
+
+sent_at
+
+---
+
+####################################################
+
+TABLE 13
+
+WHATSAPP_QUEUE
+
+####################################################
+
+Purpose
+
+WhatsApp delivery.
+
+Fields
+
+whatsapp_id
+
+assessment_id
+
+phone
+
+status
+
+retry_count
+
+sent_at
+
+---
+
+####################################################
+
+TABLE RELATIONSHIPS
+
+####################################################
+
+USERS
+
+↓
+
+ASSESSMENTS
+
+↓
+
+QUESTIONNAIRE_RESPONSES
+
+↓
+
+PHOTO_UPLOADS
+
+↓
+
+IMAGE_ANALYSIS
+
+↓
+
+ASSESSMENT_RESULTS
+
+↓
+
+REPORTS
+
+↓
+
+PAYMENTS
+
+---
+
+####################################################
+
+SUPABASE STORAGE
+
+####################################################
+
+Bucket
+
+photos
+
+Contains
+
+Front
+
+Crown
+
+Left
+
+Right
+
+---
+
+Bucket
+
+reports
+
+Contains
+
+Free PDFs
+
+Premium PDFs
+
+---
+
+####################################################
+
+SECURITY
+
+Users can only access
+
+Their own reports
+
+Their own images
+
+Their own assessments
+
+Admins can access
+
+Aggregated analytics
+
+Never raw personal data without authorization
+
+---
+
+####################################################
+
+DATA RETENTION
+
+Questionnaire
+
+Permanent
+
+Reports
+
+Permanent
+
+Payments
+
+Permanent
+
+Logs
+
+90 days
+
+Temporary processing files
+
+Delete after report generation
+
+---
+
+####################################################
+
+DATABASE PRINCIPLE
+
+Every piece of information should have one source of truth.
+
+Never duplicate data unless required for performance.
+
+Historical assessments are immutable.
+
+Never overwrite an old report.
+
+Always create a new assessment.
